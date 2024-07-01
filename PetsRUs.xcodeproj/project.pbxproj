@@ -209,7 +209,7 @@
 		4AD848C62BD6820600C2B190 = {
 			isa = PBXGroup;
 			children = (
-				4AD848D12BD6820600C2B190 /* P */,
+				4AD848D12BD6820600C2B190 /* PetsRUs */,
 				4AD848D02BD6820600C2B190 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -222,7 +222,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4AD848D12BD6820600C2B190 /* P */ = {
+		4AD848D12BD6820600C2B190 /* PetsRUs */ = {
 			isa = PBXGroup;
 			children = (
 				4ABC83EA2C0CB1BA003D3BC7 /* API */,
@@ -242,7 +242,7 @@
 				4AD848E02BD6820700C2B190 /* Info.plist */,
 				4A28C9C12BD6AAEE0046E6D3 /* GoogleService-Info.plist */,
 			);
-			path = P;
+			path = PetsRUs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
