@@ -92,7 +92,7 @@
 		4ABC83ED2C0D75C2003D3BC7 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		4ABF86FE2C105510002D66D8 /* AcknowledgementsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcknowledgementsTableViewController.swift; sourceTree = "<group>"; };
 		4ABF87002C105897002D66D8 /* AcknowledgementViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcknowledgementViewController.swift; sourceTree = "<group>"; };
-		4AD848CF2BD6820600C2B190 /* FIT3178-Final-Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FIT3178-Final-Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AD848CF2BD6820600C2B190 /* PetsRUs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PetsRUs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AD848D22BD6820600C2B190 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4AD848D42BD6820600C2B190 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		4AD848D92BD6820600C2B190 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -209,7 +209,7 @@
 		4AD848C62BD6820600C2B190 = {
 			isa = PBXGroup;
 			children = (
-				4AD848D12BD6820600C2B190 /* FIT3178-Final-Project */,
+				4AD848D12BD6820600C2B190 /* P */,
 				4AD848D02BD6820600C2B190 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -217,12 +217,12 @@
 		4AD848D02BD6820600C2B190 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4AD848CF2BD6820600C2B190 /* FIT3178-Final-Project.app */,
+				4AD848CF2BD6820600C2B190 /* PetsRUs.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4AD848D12BD6820600C2B190 /* FIT3178-Final-Project */ = {
+		4AD848D12BD6820600C2B190 /* P */ = {
 			isa = PBXGroup;
 			children = (
 				4ABC83EA2C0CB1BA003D3BC7 /* API */,
@@ -242,15 +242,15 @@
 				4AD848E02BD6820700C2B190 /* Info.plist */,
 				4A28C9C12BD6AAEE0046E6D3 /* GoogleService-Info.plist */,
 			);
-			path = "FIT3178-Final-Project";
+			path = P;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4AD848CE2BD6820600C2B190 /* FIT3178-Final-Project */ = {
+		4AD848CE2BD6820600C2B190 /* PetsRUs */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4AD848E32BD6820700C2B190 /* Build configuration list for PBXNativeTarget "FIT3178-Final-Project" */;
+			buildConfigurationList = 4AD848E32BD6820700C2B190 /* Build configuration list for PBXNativeTarget "PetsRUs" */;
 			buildPhases = (
 				4AD848CB2BD6820600C2B190 /* Sources */,
 				4AD848CC2BD6820600C2B190 /* Frameworks */,
@@ -260,14 +260,14 @@
 			);
 			dependencies = (
 			);
-			name = "FIT3178-Final-Project";
+			name = PetsRUs;
 			packageProductDependencies = (
 				4AD848E72BD682AD00C2B190 /* FirebaseAuth */,
 				4AD848E92BD682AD00C2B190 /* FirebaseFirestore */,
 				4AD848EB2BD682AD00C2B190 /* FirebaseFirestoreSwift */,
 			);
 			productName = "FIT3178-Final-Project";
-			productReference = 4AD848CF2BD6820600C2B190 /* FIT3178-Final-Project.app */;
+			productReference = 4AD848CF2BD6820600C2B190 /* PetsRUs.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -285,7 +285,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 4AD848CA2BD6820600C2B190 /* Build configuration list for PBXProject "FIT3178-Final-Project" */;
+			buildConfigurationList = 4AD848CA2BD6820600C2B190 /* Build configuration list for PBXProject "PetsRUs" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -301,7 +301,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4AD848CE2BD6820600C2B190 /* FIT3178-Final-Project */,
+				4AD848CE2BD6820600C2B190 /* PetsRUs */,
 			);
 		};
 /* End PBXProject section */
@@ -566,7 +566,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4AD848CA2BD6820600C2B190 /* Build configuration list for PBXProject "FIT3178-Final-Project" */ = {
+		4AD848CA2BD6820600C2B190 /* Build configuration list for PBXProject "PetsRUs" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4AD848E12BD6820700C2B190 /* Debug */,
@@ -575,7 +575,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4AD848E32BD6820700C2B190 /* Build configuration list for PBXNativeTarget "FIT3178-Final-Project" */ = {
+		4AD848E32BD6820700C2B190 /* Build configuration list for PBXNativeTarget "PetsRUs" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4AD848E42BD6820700C2B190 /* Debug */,
